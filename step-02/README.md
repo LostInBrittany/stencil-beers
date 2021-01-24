@@ -22,7 +22,7 @@ export class BeerListItem {
 
 The `@Component` decorator provides metadata about our component to the Stencil compiler. For the moment we have only declared the `tag` property, that will the the custom HTML tag for our component.
 
-For more information about the `@Component` decorator, see the [official documentation](https://stenciljs.com/docs/component).
+*For more information about the `@Component` decorator, see the [official documentation](https://stenciljs.com/docs/component).*
 
 ## Rendering the component
 
@@ -39,7 +39,7 @@ render() {
 
 > In order to compile the JSX code, you need to import the `h` function from `@stencil/core`, as we have done when creating the component.
 
-You can find more information about using JSX in Stencil in the [official documentation](https://stenciljs.com/docs/templating-jsx).
+*You can find more information about using JSX in Stencil in the [official documentation](https://stenciljs.com/docs/templating-jsx).*
 
 
 We can already add a `beer-list-item` component to our `index.html` file, and it will be nicely rendered:
@@ -145,7 +145,7 @@ Now you can use the `beer-list-item` components from `index.html` and give them 
 
 ![Screenshot](../img/step-02-02.png)
 
-For more information about Props, see the [official documentation](https://stenciljs.com/docs/properties).
+*For more information about Props, see the [official documentation](https://stenciljs.com/docs/properties).*
 
 
 ## Making it prettier
