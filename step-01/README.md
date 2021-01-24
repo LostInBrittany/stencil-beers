@@ -101,9 +101,11 @@ All the components in this component collection are in the `src/components` fold
 
 ### Anatomy of a Stencil Component
 
-Each component has two main files, a TypeScript file (`my-component.ts`in this example) and a CSS one (`my-component.css`). Let's look at the `my-component.ts` file:
+Each component has two main files, a TypeScript file (`my-component.tsx`in this example) and a CSS one (`my-component.css`). The `.tsx` extension is required since Stencil components are built using [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and TypeScript.
 
-```typescript
+Let's look at the `my-component.tsx` file:
+
+```tsx
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
 
@@ -133,14 +135,14 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I am {this.getText()}</div>;
+    return <div>Hello, World! I'm {this.getText()}</div>;
   }
 }
 ```
 
 The first piece we see is the `@Component` decorator. This decorator provides metadata about our component to the Stencil compiler. Information, such as the tag to use, and external styles, can be set here and picked up by the compiler.
 
-Below the `@Component()` decorator, we have a standard JavaScript class. This is where you'll write the bulk of your code to bring your Stencil component to life. Here is where you'd write functions or provide business logic.
+Below the `@Component()` decorator, we have a standard TypeScript class. This is where you'll write the bulk of your code to bring your Stencil component to life. Here is where you'd write functions or provide business logic.
 
 In order for the component to render something to the screen, we must declare a render function that returns JSX. If you're not sure what JSX is, don't worry, we'll go over it later in the tutorial.
 
