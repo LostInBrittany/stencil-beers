@@ -33,7 +33,9 @@ You can go through the whole tutorial in a couple of hours or you may want to sp
 
 ## What do I need to use this tutorial?
 
-The tools strictly needed for this tutorial are a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)), a text editor (we suggest the excellent [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io))) and [Node JS](https://nodejs.org).
+The tools strictly needed for this tutorial are a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)), a text editor (we suggest the excellent [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io))) and [NodeJS](https://nodejs.org).
+
+Stencil requires a recent LTS version of NodeJS and `npm`. Make sure you've installed and/or updated Node before continuing.
 
 > ### A Web server
 >
@@ -72,9 +74,10 @@ The tutorial is divided in steps, each one in its own directory:
 
 In each step directory you have a README file that explain the objective of the step, that you will do in the working directory `app`. If you have problems or if you get lost, you also have the solution of each step in the step directories. 
 
-So if you want to see the intended result of  the 6th step, go to the step-06 folder and do:
+So if you want to see the intended result of  the 6th step, go to the `step-06` folder and do:
 
 ```bash
+cd stencil-beers
 npm init
 npm start
 ```
