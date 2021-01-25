@@ -82,7 +82,7 @@ Now we can write the `render()`:
 render() {
     return <div id={this.beer.id} class="detail clearfix">
     
-        <a href="#/">
+        <a href="/">
             <img class="pull-right back" src="/data/img/back.png" />
         </a>
         <h1 class="name">{this.beer.name}</h1>
@@ -219,4 +219,54 @@ Now we can use `beer-detail` in `beer-main` to replace the simple message we had
 ```
 
 ![Screenshot](../img/step-08-01.png)
+
+
+## Let's add some more dynamism
+
+To make it even prettier, we would like that instead of always showcasing the main image, when we click on the label or main thumbnails, the chosen image was showcased.
+
+Let's add a new State, `currentImage`, and make it change when we click on a thumnail.
+
+
+Let's begin by adding the State, and initializing it
+
+```tsx
+    @State() currentImg: string;
+
+    @Watch('beerId')
+    async _getData() {
+        console.log('I got called');
+        if (this.beerId === undefined) return;
+        try {
+            const response = await fetch(`/data/beers/details/${this.beerId}.json`);
+            this.beer = await response.json();
+            this.currentImg = this.beer.img;
+        }
+        catch (err) {
+            console.log('fetch failed', err);
+        }
+    }
+```
+
+Now let's add some click listeners in the thumbnails, and make them change `currentImg`:
+
+```tsx
+<img class="pull-right img" src={"/data/" + this.currentImg} />
+
+<p class="description">{this.beer?.description}</p>
+
+<ul class="beer-thumbs">
+    <li>
+        <img 
+            src={"/data/" + this.beer?.img} 
+            onClick={() => this.currentImg = this.beer.img } />
+    </li>
+    <li>
+        <img src={"/data/" + this.beer?.label}
+            onClick={() => this.currentImg = this.beer.label } />
+    </li>
+</ul>
+```
+
+![Screenshot](../img/step-08-02.png)
 
