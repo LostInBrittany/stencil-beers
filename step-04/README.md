@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 04: Filtering
+# ![Stencil Beers icon](../img/logo-25px.png) Stencil Beers - Step 04: Filtering
 
 We did a lot of work in laying a foundation for the app in the last step, so now we'll do something simple: we will add full text search (yes, it will be simple!).
 

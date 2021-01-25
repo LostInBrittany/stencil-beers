@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 08: Adding the details
+# ![Stencil Beers icon](../img/logo-25px.png) Stencil Beers - Step 08: Adding the details
 
 Now we are going to have two different "pages" (or *views*) in our Stencil Beers application, one for the beer list and another for a single beer detail.
 

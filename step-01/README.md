@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 01: First steps with Stencil
+# ![Stencil Beers icon](../img/logo-25px.png) Stencil Beers - Step 01: First steps with Stencil
 
 
 

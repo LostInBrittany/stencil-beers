@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 06: Calling the server
+# ![Stencil Beers icon](../img/logo-25px.png) Stencil Beers - Step 06: Calling the server
 
 
 Enough of building an app with five beers in a hard-coded dataset! Let's fetch a larger dataset from our server using the [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).

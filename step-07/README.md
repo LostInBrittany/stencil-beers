@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 07: Routing URLs
+# ![Stencil Beers icon](../img/logo-25px.png) Stencil Beers - Step 07: Routing URLs
 
 
 

@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers
+# ![Stencil Beers icon](./img/logo-25px.png)  Stencil Beers
 
 I have built this [Stencil tutorial](https://github.com/LostInBrittany/stencil-beers) as a quick entry point to [Stencil](https://stenciljs.com/). 
 
