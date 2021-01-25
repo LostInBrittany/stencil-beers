@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Step 04: Sorting
+# ![](../img/logo-25px.png) Stencil Beers - Step 05: Sorting
 
 
 In this step, you will add a feature to let your users control the order of the items in the beer list. The dynamic ordering is implemented by creating a new model property, wiring it together with the repeater, and letting the data binding magic do the rest of the work.
