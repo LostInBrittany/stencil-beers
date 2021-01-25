@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Stencil tutorial - Step 03
+# ![](../img/logo-25px.png) Stencil Beers - Step 03: Creating and iterating a list
 
 
 In this step we are going to create a more complex Stencil component, a custom `beer-list`. This element will use a TypeScript array as model and automatically generate a `beer-list-item` for each beer in the array.

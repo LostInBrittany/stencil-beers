@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Stencil tutorial - Step 01
+# ![](../img/logo-25px.png) Stencil Beers - Step 01: First steps with Stencil
 
 
 

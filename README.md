@@ -64,9 +64,9 @@ Stencil requires a recent LTS version of NodeJS and `npm`. Make sure you've inst
 The tutorial is divided in steps, each one in its own directory:
 
 
-1. [Static HTML](./step-01/)
+1. [First steps with Stencil](./step-01/)
 1. [Using Stencil elements](./step-02/)
-1. [Creating a new element](./step-03/)
+1. [Creating and iterating a list](./step-03/)
 1. [Filtering](./step-04/)
 1. [Sorting](./step-05/)
 1. [Calling the server](./step-06/)

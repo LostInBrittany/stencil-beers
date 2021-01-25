@@ -1,4 +1,4 @@
-# ![](../img/logo-25px.png) Stencil Beers - Stencil tutorial - Step 02
+# ![](../img/logo-25px.png) Stencil Beers - Step 02: Using Stencil elements
 
 In this step we are going to use our first Stencil, a very simple custom element to render a beer inside a list of beer. Keeping it simple, we call it `beer-list-item`.
 
