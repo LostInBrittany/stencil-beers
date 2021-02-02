@@ -2,6 +2,7 @@
 
 I have built this [Stencil tutorial](https://github.com/LostInBrittany/stencil-beers) as a quick entry point to [Stencil](https://stenciljs.com/). 
 
+
 > ## Stencil
 > Stencil is a toolchain for building reusable, scalable Design Systems. Generate small, blazing fast, and 100% standards based Web Components that run in every browser.
 
@@ -33,31 +34,13 @@ You can go through the whole tutorial in a couple of hours or you may want to sp
 
 ## What do I need to use this tutorial?
 
-The tools strictly needed for this tutorial are a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)), a text editor (we suggest the excellent [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io))) and [NodeJS](https://nodejs.org).
+The only tool stricly needed to do this tutorial is a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)). The whole tutorial can be done via the browser on [GitPod](https://gitpod.io), without installing anything in your computer. Simply click [here](https://gitpod.io/#https://github.com/LostInBrittany/stencil-component-starter) or in the *Open in GitPod* button bellow. 
 
-Stencil requires a recent LTS version of NodeJS and `npm`. Make sure you've installed and/or updated Node before continuing.
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LostInBrittany/stencil-component-starter)
 
-> ### A Web server
->
-> For the last part of the tutorial you will need a web server where you will deploy your Stencil Beers application. 
->
->If you have Python in your system, the easiest way would be to run the embeded SimpleHTTPServer. Go to the folder you would like to serve and run
+> If you want to do the tutorial locally in your computer, you will need  a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)), a text editor (we suggest the excellent [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io))) and [NodeJS](https://nodejs.org).
 > 
->```
-># Python 2.x
->python -m SimpleHTTPServer
->```
->
->or 
->
->```
-># Python 3.x
->python -m http.server
->```
->
->to start the web server. Then, open a browser window for the app and navigate to http://localhost:8000 and you will see the content of the folder served SimpleHTTPServer.
->
->If not, you can use [NodeJS](http://nodejs.org). We have put a minimalist JavaScript web-server on `./scripts/web-server.js`. To see the app running in a browser, open a separate terminal/command line tab or window, go to the project directory and then run `node ./scripts/web-server.js` to start the web server. 
+> Stencil requires a recent LTS version of NodeJS and `npm`. Make sure you've installed and/or updated Node before continuing.
 
 ## How is the tutorial organized 
 
