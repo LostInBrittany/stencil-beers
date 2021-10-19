@@ -1,4 +1,4 @@
-import { Component, Prop, State, h } from '@stencil/core';
+import { Component, State, h } from '@stencil/core';
 import { beerList, Beer } from '../../utils/beers';
 
 @Component({

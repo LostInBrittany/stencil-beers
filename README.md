@@ -34,9 +34,9 @@ You can go through the whole tutorial in a couple of hours or you may want to sp
 
 ## What do I need to use this tutorial?
 
-The only tool stricly needed to do this tutorial is a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)). The whole tutorial can be done via the browser on [GitPod](https://gitpod.io), without installing anything in your computer. Simply click [here](https://gitpod.io/#https://github.com/LostInBrittany/stencil-component-starter) or in the *Open in GitPod* button bellow. 
+The only tool stricly needed to do this tutorial is a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)). The whole tutorial can be done via the browser on [GitPod](https://gitpod.io), without installing anything in your computer. Simply click [here](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers) or in the *Open in GitPod* button bellow. 
 
-[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LostInBrittany/stencil-component-starter)
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers)
 
 > If you want to do the tutorial locally in your computer, you will need  a modern web browser (ideally [Chrome](https://www.google.com/chrome/) or [Chromium](https://www.chromium.org/)), a text editor (we suggest the excellent [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io))) and [NodeJS](https://nodejs.org).
 > 

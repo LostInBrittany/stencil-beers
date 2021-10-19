@@ -13,7 +13,7 @@ In the TypeScrip file, declare the component:
 
 
 ```tsx
-import { Component, Prop, h } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'beer-list',
@@ -61,10 +61,10 @@ export const beerList: Array<Beer> =  [
 
 ## Importing the model
 
-Now we can import our `beerList` into the `beer-list` component:
+Now we can import our `Beer` type and the `beerList` into the `beer-list` component:
 
 ```tsx
-import { beerList } from '../../utils/beers';
+import { Beer, beerList } from '../../utils/beers';
 ```
 
 And we are going to declare the beer list with the `@State` decorator. The `@State()` decorator is used to manage internal data for a component. Any changes to a `@State()` property will cause the components render function to be called again.
@@ -72,7 +72,7 @@ And we are going to declare the beer list with the `@State` decorator. The `@Sta
 Import the `@State` decorator:
 
 ```tsx
-import { Component, Prop, State, h } from '@stencil/core';
+import { Component, State, h } from '@stencil/core';
 ```
 
 And add a beer list state to the component:
@@ -92,12 +92,12 @@ Components have numerous lifecycle methods which can be used to know when the co
 
 The `componentWillLoad()` method is called once just after the component is first connected to the DOM. Since this method is only called once, it's a good place to load data asynchronously.
 
-Let's use it to initialize `list`:
+Let's use it to initialize `beers`:
 
 ```tsx
     componentWillLoad() {
-    this.beers = beerList;
-}
+        this.beers = beerList;
+    }
 ```
 
 *For more information on Stencil lifecycle methods, see the [official documentation](https://stenciljs.com/docs/component-lifecycle).*
