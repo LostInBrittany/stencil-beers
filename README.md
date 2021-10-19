@@ -1,3 +1,5 @@
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers)
+
 # ![Stencil Beers icon](./img/logo-25px.png)  Stencil Beers
 
 I have built this [Stencil tutorial](https://github.com/LostInBrittany/stencil-beers) as a quick entry point to [Stencil](https://stenciljs.com/). 
@@ -68,6 +70,8 @@ npm start
 
 ## What should I do now?  
 
-OK, now you're ready to follow this tutorial. If you're familiar with git, begin by cloning this repository (`git clone https://github.com/LostInBrittany/stencil-beers`), else you can simply download the zipped file from [GitHub](https://github.com/LostInBrittany/stencil-beers/archive/master.zip).
+OK, now you're ready to follow this tutorial. Simply click [here](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers) or in the *Open in GitPod* button bellow. 
+
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers)
 
 Now can go to [step-01](./step-01) and begin to follow the README of that step. Let's begin!
