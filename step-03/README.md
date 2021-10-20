@@ -228,7 +228,7 @@ Now edit your application global Stencil configuration file, `stencil.config.ts`
 ```ts
 export const config: Config = {
   namespace: 'stencil-beers',
-  globalStyle: 'node_modules/boostrap/dist/css/bootstrap.min.css',
+  globalStyle: 'node_modules/bootstrap/dist/css/bootstrap.min.css',
   [...]
 }
 ```
