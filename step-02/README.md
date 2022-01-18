@@ -2,7 +2,7 @@
 
 In this step we are going to use our first Stencil, a very simple custom element to render a beer inside a list of beer. Keeping it simple, we call it `beer-list-item`.
 
-We are creating this `beer-list-item` as a Stencil component, i.e. a [Web Component] (https://developer.mozilla.org/en-US/docs/Web/Web_Components). As all other Stencil components in your collection, it will be in its own folder inside `src/components`.
+We are creating this `beer-list-item` as a Stencil component, i.e. a [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Components). As all other Stencil components in your collection, it will be in its own folder inside `src/components`.
 
 > By specification, the custom element's name must start with a lower-case ASCII letter and must contain a dash (`-`). And by convention, the name should be all lowercase, and use dashes to separate words, that's why we get the `beer-list-item` name.
 
