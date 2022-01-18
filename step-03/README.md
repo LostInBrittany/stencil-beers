@@ -30,7 +30,7 @@ export class BeerList {
 
 We are going to model a beer object as a `Beer` TypeScript item, and our (ever growing) beer collection as a TypeScript array of `Beer`.
 
-In the `src/utils` folder, add a `beer.ts` file:
+In the `src/utils` folder, add a `beers.ts` file:
 
 ```ts
 export interface Beer {
