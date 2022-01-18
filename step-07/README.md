@@ -174,3 +174,7 @@ And now you can go to you app, see the hyper-linked beer list, click on one of t
 
 ![Screenshot](../img/step-07-02.png)
 ![Screenshot](../img/step-07-01.png)
+
+## Summary ##
+
+Now that you have a basic detail view, go to [step 8](../step-08) enrich the details of each beer.
