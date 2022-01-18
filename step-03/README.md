@@ -271,7 +271,7 @@ We can now also add a `container` class to the `beer-list` and `beerlist-item` r
 
 So now the beers are rendered inside a Bootstrap [container](https://getbootstrap.com/docs/4.1/layout/overview/#containers) element, as you can see with the margins.
 
-![Screenshot](../img/step-03-03.jpg)
+![Screenshot](../img/step-03-03.png)
 
 
 ## Aditionnal experiments
