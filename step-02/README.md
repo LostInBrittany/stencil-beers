@@ -8,7 +8,7 @@ We are creating this `beer-list-item` as a Stencil component, i.e. a [Web Compon
 
 ## The `beer-list-item` component
 
-You're going to define your first element, `beer-list-item`. Let's begin by creating a `beer-list-item` folder inside `src/components`. Inside it, create a `beer-list-item.tsx` folder:
+You're going to define your first element, `beer-list-item`. Let's begin by creating a `beer-list-item` folder inside `src/components`. Inside it, create a `beer-list-item.tsx` file:
 
 ```tsx
 import { Component, h } from '@stencil/core';
