@@ -68,6 +68,18 @@ npm init
 npm start
 ```
 
+## New - Full CRUD tutorial
+
+There are several new steps in the tutorial, to make Stencil Beers a full [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) application. As this steps involve adding, editing and deleting beers, we cannot simply use the static JSON file as data source, we need a dymamic REST backend supporting the 4 CRUD operations.
+
+The easiest way to deploy it would be using [Express Beers](https://github.com/LostInBrittany/express-beers/), a companion tutorial to this one. You can follow the instructions on [Express Beers repository](https://github.com/LostInBrittany/express-beers/) to either deploy it locally on in [GitPod](https://gitpod.io), but if you want the easiest solution, simply [click here to open the complete Express Beers backend on GitPod](https://gitpod.io/#/https://github.com/LostInBrittany/express-beers/tree/serve), and you will get the backend and the database deployed in the cloud. 
+
+![Deployed on GitPod](img/step-00-01.png)
+
+
+
+
+
 ## What should I do now?  
 
 OK, now you're ready to follow this tutorial. Simply click [here](https://gitpod.io/#https://github.com/LostInBrittany/stencil-beers) or in the *Open in GitPod* button bellow. 
