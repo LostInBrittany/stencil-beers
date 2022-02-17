@@ -76,7 +76,9 @@ The easiest way to deploy it would be using [Express Beers](https://github.com/L
 
 ![Deployed on GitPod](img/step-00-01.png)
 
-
+1. [Creating beers](./step-09)
+1. [Editing beers](./step-10)
+1. [Deleting beers](./step-11)
 
 
 
